@@ -2,19 +2,15 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
-.body {
-	background-color: "#ddd";
-}
-
 .myFont {
 	font-family: "Nunito", cursive;
 	font-weight: 700;
 }
 
-.prose img {
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
+.profilePhoto {
+	max-width: 400px;
+	max-height: 400px;
+	margin-inline: auto;
 }
 
 .home-name {
@@ -46,4 +42,8 @@
 	to {
 		border-right-color: transparent;
 	}
+}
+
+.list-style {
+	list-style: circle;
 }
