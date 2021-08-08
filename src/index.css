@@ -2,6 +2,10 @@
 @import url("https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
+.body {
+	background-color: "#ddd";
+}
+
 .myFont {
 	font-family: "Nunito", cursive;
 	font-weight: 700;
@@ -15,4 +19,31 @@
 
 .home-name {
 	font-size: 150px;
+}
+
+.social-icons {
+	cursor: pointer;
+}
+
+.anim-details {
+	animation: typewriter 4s steps(10) 1s 1 normal both,
+		blinkTextCursor 500ms steps(400) inflate normal;
+}
+
+@keyframes typewriter {
+	from {
+		width: 0;
+	}
+	to {
+		width: 16em;
+	}
+}
+
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: rgbs(0, 0, 0, 0.75);
+	}
+	to {
+		border-right-color: transparent;
+	}
 }
