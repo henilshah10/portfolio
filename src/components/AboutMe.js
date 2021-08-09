@@ -3,7 +3,7 @@ import profilePhoto from "../assets/photo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faGooglePlusSquare } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
@@ -61,46 +61,82 @@ const AboutMe = () => {
 				<p className="text-3xl">Wanna Talk? Hit me up.!</p>
 				<div className="grid gap-5 mt-5 grid-cols-3">
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#333" }}
-							className="text-5xl social-icons"
-							icon={faGithubSquare}
-						/>
+						<a
+							href="https://github.com/henilshah10"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#333" }}
+								className="text-5xl social-icons"
+								icon={faGithubSquare}
+							/>
+						</a>
 					</div>
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#0077b5" }}
-							className="text-5xl social-icons"
-							icon={faLinkedin}
-						/>
+						<a
+							href="https://www.linkedin.com/in/henilshah106/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#0077b5" }}
+								className="text-5xl social-icons"
+								icon={faLinkedin}
+							/>
+						</a>
 					</div>
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#dd4b39" }}
-							className="text-5xl social-icons"
-							icon={faGooglePlusSquare}
-						/>
+						<a
+							href="mailto:henil.601@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#dd4b39" }}
+								className="text-5xl social-icons"
+								icon={faGoogle}
+							/>
+						</a>
 					</div>
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#1877f2" }}
-							className="text-5xl social-icons"
-							icon={faFacebookSquare}
-						/>
+						<a
+							href="https://www.facebook.com/henil.shah.121"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#1877f2" }}
+								className="text-5xl social-icons"
+								icon={faFacebookSquare}
+							/>
+						</a>
 					</div>
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#e1306c" }}
-							className="text-5xl social-icons"
-							icon={faInstagramSquare}
-						/>
+						<a
+							href="https://www.instagram.com/henil_106/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#e1306c" }}
+								className="text-5xl social-icons"
+								icon={faInstagramSquare}
+							/>
+						</a>
 					</div>
 					<div>
-						<FontAwesomeIcon
-							style={{ color: "#25d366" }}
-							className="text-5xl social-icons"
-							icon={faWhatsappSquare}
-						/>
+						<a
+							href="//api.whatsapp.com/send?phone=17787510309&text=Hey, I saw your portfolio and thought to connect..."
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FontAwesomeIcon
+								style={{ color: "#25d366" }}
+								className="text-5xl social-icons"
+								icon={faWhatsappSquare}
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
