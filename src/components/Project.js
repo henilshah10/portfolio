@@ -24,7 +24,7 @@ const Project = () => {
 	}, []);
 
 	return (
-		<main className="bg-gray-200 min-h-screen p-8 myFont">
+		<main className="p-8 myFont">
 			<section className="container mx-auto">
 				<h1 className="text-5xl flex justify-center">My Projects</h1>
 				<section className="grid grid-cols-2 gap-8 mt-5">

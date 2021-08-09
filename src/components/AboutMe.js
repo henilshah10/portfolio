@@ -12,7 +12,7 @@ import Typical from "react-typical";
 
 const AboutMe = () => {
 	return (
-		<div className="bg-gray-200 min-h-screen">
+		<div>
 			<div className="container flex rounded-lg p-5 myFont">
 				<div className="mt-5 grid gap-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
 					<div>
