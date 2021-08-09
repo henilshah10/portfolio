@@ -31,19 +31,19 @@ const AboutMe = () => {
 								wrapper="b"
 								steps={[
 									"developer 🖥",
-									2000,
+									1500,
 									"designer 🎨",
-									2000,
+									1500,
 									"open sourcer 📚",
-									2000,
-									"soccer fan ⚽️",
-									2000,
+									1500,
+									"football fan ⚽️",
+									1500,
 									"music lover 🎧",
-									2000,
+									1500,
 									"reader 📗",
-									2000,
+									1500,
 									"gamer 🎮",
-									2000,
+									1500,
 								]}
 							/>
 						</p>

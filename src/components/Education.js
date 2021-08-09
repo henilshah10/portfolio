@@ -26,7 +26,6 @@ const Education = () => {
 			)
 			.then((data) => {
 				setEducationData(data);
-				console.log(data);
 			})
 			.catch(console.error());
 	}, []);

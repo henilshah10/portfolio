@@ -24,6 +24,11 @@ export default {
 			type: "string",
 		},
 		{
+			title: "Company Logo",
+			name: "companyLogo",
+			type: "image",
+		},
+		{
 			name: "endDate",
 			type: "string",
 		},
