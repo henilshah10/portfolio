@@ -19,7 +19,7 @@ const AboutMe = () => {
 						<img
 							className="rounded-lg border-4 border-black profilePhoto"
 							src={profilePhoto}
-							alt="Profile Photo"
+							alt="Profile"
 						/>
 					</div>
 					<div className="md:mt-5 lg:mt-5 xl:mt-5">
