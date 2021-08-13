@@ -56,21 +56,21 @@ const Education = () => {
 											className="hover:text-gray-400"
 											href={edu.link}
 										>
-											<p className="">{edu.title}</p>
+											<p>{edu.title}</p>
 										</a>
-										<p className=" text-white mt-3">
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Degree:
 											</strong>{" "}
 											{edu.degree}
 										</p>
-										<p className=" text-white mt-3">
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Institution:{" "}
 											</strong>
 											{edu.institution + ", " + edu.place}
 										</p>
-										<p className=" text-white mt-3">
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Graduated In:{" "}
 											</strong>

@@ -31,58 +31,52 @@ const Work = () => {
 	}, []);
 
 	return (
-		<main className="p-8 myFont">
+		<main className="p-2 myFont">
 			<section className="container mx-auto">
-				<h1 className="text-5xl flex justify-center">My Work</h1>
-				<div className="mt-5">
+				<h1 className="mt-3 text-3xl flex justify-center mb-3">
+					My Work
+				</h1>
+				<div>
 					{workData &&
 						workData.map((work, index) => (
 							<div
 								key={index}
-								className="relative bg-black text-white rounded-xl p-4 mt-5"
+								className="bg-black text-white rounded-xl p-4 mb-4 text-lg sm:text-2xl md:text-xl lg:text-2xl xl:text-2xl"
 							>
-								<div className="flex xs:grid xs:grid-col-12 xs:gap-8">
-									<div className="mr-5">
+								<div className="grid grid-col-12 gap-8 sm:grid sm:grid-col-12 sm:gap-8 md:flex md:justify-start">
+									<div className="flex justify-items-center mx-5 mt-4 md:my-4 lg:my-4 xl:my-4">
 										<img
-											className="bg-white p-3 rounded-lg"
-											style={{
-												minWidth: "175px",
-												minHeight: "175px",
-												width: "175px",
-												height: "175px",
-											}}
+											className="bg-white p-3 rounded-lg mx-auto my-work-image"
 											src={work.companyLogo.asset.url}
 											alt={work.position}
 										/>
 									</div>
-									<div className="col-span-2">
-										<p className="text-3xl">
-											{work.position}
-										</p>
-										<p className="text-xl text-white mt-3">
+									<div className="sm:mt-5 md:mt-5 lg:mt-5 xl:mt-5">
+										<p>{work.position}</p>
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Company:{" "}
 											</strong>
 											{work.company + ", " + work.place}
 										</p>
-										<p className="text-xl text-white mt-3">
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Role:
 											</strong>{" "}
 											{work.role}
 										</p>
-										<p className="text-xl text-white mt-3">
+										<p className="text-white mt-3">
 											<strong className="text-gray-500">
 												Tenure:{" "}
 											</strong>
 											{work.startDate +
-												" " +
+												"-" +
 												work.endDate}
 										</p>
 									</div>
 								</div>
-								<div className="mt-4">
-									<p className="text-white text-xl leading-relaxed">
+								<div className="xs:mx-5 sm:mx-5 md:mx-5 lg:mx-5 xl:mx-5 mt-3">
+									<p className="text-white leading-relaxed">
 										<strong className="text-gray-500">
 											Key Responsibilities:
 											<br />{" "}
