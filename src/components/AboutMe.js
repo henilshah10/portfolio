@@ -35,7 +35,7 @@ const AboutMe = () => {
 								steps={[
 									"developer 🖥",
 									1500,
-									"designer 🎨",
+									"ux designer 🎨",
 									1500,
 									"open sourcer 📚",
 									1500,
@@ -61,8 +61,8 @@ const AboutMe = () => {
 				</div>
 			</div>
 			<div className="container rounded-lg mt-4 px-5 myFont text-5xl text-center mb-5">
-				<p className="text-3xl mt-5">Wanna Talk? Hit me up.!</p>
-				<div className="grid gap-5 mt-5 grid-cols-3">
+				<p className="text-2xl mt-5">Wanna Talk? Hit me up.!</p>
+				<div className="grid gap-5 mt-4 grid-cols-3">
 					<div>
 						<a
 							href="https://github.com/henilshah10"

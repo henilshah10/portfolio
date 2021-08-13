@@ -47,3 +47,9 @@
 .list-style {
 	list-style: circle;
 }
+
+.my-edu-image {
+	width: 100%;
+	max-width: 175px;
+	max-height: 175px;
+}
