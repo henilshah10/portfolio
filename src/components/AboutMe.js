@@ -13,18 +13,21 @@ import Typical from "react-typical";
 const AboutMe = () => {
 	return (
 		<div>
-			<div className="container flex rounded-lg p-5 myFont">
+			<div className="container flex px-5 rounded-lg myFont">
 				<div className="mt-5 grid gap-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
 					<div>
 						<img
-							className="rounded-lg border-4 border-black profilePhoto"
+							className="rounded-lg border-4 border-black profilePhoto w-full"
+							// style={{ width: "200px" }}
 							src={profilePhoto}
 							alt="Profile"
 						/>
 					</div>
-					<div className="md:mt-5 lg:mt-5 xl:mt-5">
-						<p className="text-center text-5xl">Henil Shah</p>
-						<p className="text-center text-3xl mt-3">
+					<div className="sm:mt-5 md:mt-5 lg:mt-5 xl:mt-5">
+						<p className="text-center text-4xl sm:text-5xl md:text-5xl lg:text-5xl">
+							Henil Shah
+						</p>
+						<p className="text-center text-lg sm:text-3xl md:text-3xl lg:text-3xl mt-3">
 							I'm a{" "}
 							<Typical
 								loop={Infinity}
@@ -47,7 +50,7 @@ const AboutMe = () => {
 								]}
 							/>
 						</p>
-						<p className="mt-5 text-2xl">
+						<p className="text-center text-lg sm:text-lg md:text-lg lg:text-2xl xl:text-3xl mt-3">
 							A passionate and focussed developer holding 5+ years
 							of developing exciting projects and googling random
 							compiler issues. My goal has always been about
@@ -57,8 +60,8 @@ const AboutMe = () => {
 					</div>
 				</div>
 			</div>
-			<div className="container rounded-lg mt-4 px-5 myFont text-5xl text-center">
-				<p className="text-3xl">Wanna Talk? Hit me up.!</p>
+			<div className="container rounded-lg mt-4 px-5 myFont text-5xl text-center mb-5">
+				<p className="text-3xl mt-5">Wanna Talk? Hit me up.!</p>
 				<div className="grid gap-5 mt-5 grid-cols-3">
 					<div>
 						<a
