@@ -41,7 +41,7 @@ const Work = () => {
 						workData.map((work, index) => (
 							<div
 								key={index}
-								className="bg-black text-white rounded-xl p-4 mb-4 text-lg sm:text-2xl md:text-xl lg:text-2xl xl:text-2xl"
+								className="bg-black text-white rounded-xl p-4 mb-4 text-lg sm:text-lg md:text-lg lg:text-2xl xl:text-2xl"
 							>
 								<div className="grid grid-col-12 gap-8 sm:grid sm:grid-col-12 sm:gap-8 md:flex md:justify-start">
 									<div className="flex justify-items-center mx-5 mt-4 md:my-4 lg:my-4 xl:my-4">
